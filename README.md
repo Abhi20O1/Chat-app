@@ -1,15 +1,28 @@
-# Chat-app
+# Chat App
 
-A simple and lightweight chat application built with modern web technologies using Vite as the build tool.
+A lightweight React chat interface built with Vite, Firebase, React Router, and React Toastify.
 
 ## Features
 
-- Clean and minimal UI for chat interface
-- Fast development experience powered by Vite
-- ESLint integrated for code quality
+- React-based chat interface
+- Client-side routing
+- Firebase integration for application data and authentication workflows
+- Toast notifications for user feedback
+- ESLint and Vite development tooling
 
-## Tech Stack
+## Run locally
 
-- JavaScript
-- HTML & CSS
-- Vite (build tool)
+```bash
+npm install
+npm run dev
+```
+
+## Validate and build
+
+```bash
+npm run lint
+npm run build
+npm run preview
+```
+
+Keep Firebase configuration in environment variables or another local configuration mechanism. Do not commit credentials or private project configuration.
